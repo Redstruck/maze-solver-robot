@@ -53,6 +53,16 @@ Developed during the **UCI ICS Intelligent Robotics Summer Academy**, this proje
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## My Role
+
+I was primarily responsible for the robot’s software and navigation system. I initially built `src/maze_solver_standard` as our baseline maze-solving program, which gave the robot a reliable way to navigate the course. From there, I took it further by developing `src/maze_solver_optimized`, where I focused on making the robot faster and more reliable.
+
+Throughout development, I wrote essentially all of the robot’s navigation and decision-making code and worked through a number of problems that came up during testing. I fixed sensor-reading issues, dealt with the Arduino crashing during operation, improved the robot’s movement and turning behavior, and added stuck detection so the robot could recognize when it was no longer making progress. I repeatedly tested the robot, analyzed what was going wrong, and adjusted the algorithm based on those results.
+
+At the end of the project, I presented the software, algorithm, and optimization process as part of our capstone presentation before demonstrating the finished robot by running it through the maze.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Built With
 
 **Hardware:**
